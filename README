@@ -1,0 +1,15 @@
+pptx-export-notes
+
+v1
+by Eric Jang
+
+a simple script to extract the presenter notes from a .pptx file and export them into a single rtf file (for printing/rehearsing).
+
+Usage:
+
+pptx_export_speaker_notes.py -p /Users/Eric/Desktop/myppt.pptx
+
+A .txt file containing all of the presenter notes will be exported to the same directory as the .pptx file.
+
+This only works for .pptx files as they use Microsoft's OpenXML format (will not work for ppt files).
+
