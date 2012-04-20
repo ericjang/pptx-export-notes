@@ -3,7 +3,7 @@ pptx-export-notes
 v1
 by Eric Jang
 
-a simple script to extract the presenter notes from a .pptx file and export them into a single rtf file (for printing/rehearsing).
+a simple script to extract the presenter notes from a .pptx file and export them into a single plaintext (.txt) file (for printing/rehearsing).
 
 Usage:
 
