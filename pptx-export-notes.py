@@ -37,6 +37,9 @@ def run():
         #parse each XML notes file from the notes folder.
         dom = parse(infile)
         noteslist = dom.getElementsByTagName('a:t')
+        if len(noteslist) == 0:
+            continue
+
         #separate last element of noteslist for use as the slide marking.
         slideNumber = noteslist.pop()
         slideNumber = slideNumber.toxml().replace('<a:t>', '').replace('</a:t>', '')
